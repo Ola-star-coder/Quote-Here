@@ -126,3 +126,14 @@ body {
     }
 
 }
+
+@media screen and (max-width:368px) {
+    .quote-box h2 {
+        font-size: 20px;
+    }
+
+    .quote-box blockquote {
+        font-size: 17px;
+
+    }
+}
