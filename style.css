@@ -96,3 +96,33 @@ body {
     background: transparent;
     color: #333;
 }
+
+@media screen and (max-width: 768px) {
+    .quote-box {
+        width: 90%;
+    }
+
+    .quote-box h2 {
+        font-size: 24px;
+    }
+
+    .quote-box blockquote {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .quote-box span {
+        font-size: 18px;
+    }
+
+    .quote-box button {
+        width: 120px;
+        height: 40px;
+    }
+
+    .quote-box button i {
+        width: 15px;
+    }
+
+}
