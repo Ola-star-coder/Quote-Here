@@ -22,7 +22,7 @@ async function getQuote(url) {
         author.innerHTML = data[0].author;
     } catch (error) {
         console.error('Error fetching the quote:', error);
-        quote.innerHTML = 'Failed to fetch quote. Please try again later.';
+        quote.innerHTML = 'Shii, No quote,Try Again☹.';
         author.innerHTML = '';
     }
 }
